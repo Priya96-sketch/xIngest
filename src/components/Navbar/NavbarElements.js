@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import {Link as LinkR} from 'react-router-dom'
-import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
 background: #000;
@@ -19,7 +18,7 @@ transition: 0.8s all ease;
 }
 `
 
-export const NavbarContainer = styled.div`
+export const NavContainer = styled.div`
 display: flex;
 justify-content: space—between;
 height: 80px;
